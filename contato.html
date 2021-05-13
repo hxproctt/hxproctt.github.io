@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/site.css">
+    <style>
+        #campo_nome{
+            color: black;
+            width: 300px;
+        }
+        #campo_idade{
+            color: black;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contato</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cv.html"></a>CV</li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+
+    </nav>
+
+    <article>
+
+        <form action="mailto:mateus.arquivosportugol@gmail.com?subject=Ola tudo bem?" method="POST" enctype="text/plain">
+        <div calss="campo_nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Informe seu Nome">
+        </div>
+        <div id="campo_idade">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Informe sua Idade">
+        </div>
+
+        <input type="submit" value="enviar">        
+        </form>
+
+
+
+    </article>
+    <footer>
+        <hr />
+    </footer>
+</body>
+</html>

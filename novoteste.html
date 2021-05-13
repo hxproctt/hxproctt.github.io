@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    
+</head>
+<body>
+    <input type="text" id="nomeAnuncio">
+    <input type="text" id="nomeCliente">
+    <input type="date" id="dataInicio">
+    <input type="date" id="dataFim">
+    <input type="number" id="valorInvestido">
+    <input type="button" id="btoSalvar" onclick="salvar()" value="submit">
+    <table id="tabela_id">
+      <thead>
+        <tr>
+            <th>Coluna1</th>
+            <th>Coluna2</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <th>Dados1</th>
+              <th>Dados2</th>
+          </tr>
+      </tbody>
+
+    </table>
+    <script>
+        function salvar(){
+            var anuncio = [
+                nomeAnuncio = document.getElementById('nomeAnuncio').value,
+                nomeCliente = document.getElementById('nomeCliente').value,
+                dataInicio = document.getElementById('dataInicio').value,
+                dataFim = document.getElementById('dataInicio').value,
+            ]
+            $(document).ready( function () {
+            $('#tabela_id').dataTable();
+            } );
+        }
+      
+    </script>
+ <p id="imprime"></p>
+    
+</body>
+</html>

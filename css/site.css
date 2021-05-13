@@ -1,0 +1,35 @@
+html{
+    margin-left: 100px;
+    margin-right:100px;
+    background-color: darkkhaki;
+}
+body{
+    background-color: purple;
+    padding: 16px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+article{
+    min-height: 400px;
+}
+nav ul{
+    list-style: none;
+    background-color: royalblue;
+    padding: 16px;
+    border-radius: 32px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 32px;
+}
+nav ul li:hover
+, {
+    background-color: darkorchid;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    border-radius: 32px;
+}
